@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "a",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "b",
+						"type": "address"
+					}
+				],
+				"name": "sp",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"title": "GasDrop",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"notice": "A contract for sending and receiving gas across chains using LayerZero's NonblockingLzApp.",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"s.sol": "GasDrop"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"s.sol": {
+			"keccak256": "0xe5276654f1a491cd66cb3a08969dca27e310543c2447357bd99472e46e8a2759",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d910e8991cb5470c2607643c12a9d7b296ee96cb468ef10c410f39ef417da9f0",
+				"dweb:/ipfs/QmXmYC7HTN2zrf22seWjZ7tUT1t1atrPX7JAyaPecf5uAW"
+			]
+		}
+	},
+	"version": 1
+}
